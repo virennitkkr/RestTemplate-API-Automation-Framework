@@ -13,4 +13,11 @@ Easily extendable for other API services
 
 This will give your repository a more specific focus and help others understand that the framework is centred around RestTemplate.
 
+
+Run the Test Suite:
+Once you have the testng.xml file ready, you can run it using IDEs like IntelliJ or Eclipse or through Maven.
+Maven Command:
+If you're using Maven, run the tests with the following command: **mvn test -DsuiteXmlFile=testng.xml**
+
+
 **For More details:** Please email me viren.nitkkr@gmail.com 

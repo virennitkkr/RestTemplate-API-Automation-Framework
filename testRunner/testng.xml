@@ -1,6 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="APIAutomationSuite" verbose="1" parallel="false">
 
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
     <!-- Test block, can define multiple tests -->
     <test name="APIAutomationTests">
         <!-- Specify the classes to include -->

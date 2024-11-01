@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="APIAutomationSuite" verbose="1" parallel="false">
+
+    <!-- Test block, can define multiple tests -->
+    <test name="APIAutomationTests">
+        <!-- Specify the classes to include -->
+        <classes>
+            <class name="GET.GetApiTest"/>
+            <class name="POST.PostApiTest"/>
+            <class name="PUT.PutApiTest"/>
+            <class name="DELETE.DeleteApiTest"/>
+        </classes>
+
+    </test>
+
+</suite>

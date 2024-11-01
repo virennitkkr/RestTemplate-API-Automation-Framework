@@ -18,7 +18,8 @@ Run the Test Suite:
 Once you have the testng.xml file ready, you can run it using IDEs like IntelliJ or Eclipse or through Maven.
 Maven Command:
 If you're using Maven, run the tests with the following command: **mvn test -DsuiteXmlFile=testng.xml**
-
+**Generate the Allure Report Locally:**
+mvn allure:report
 
 **For More details:** Please email me viren.nitkkr@gmail.com 
 
